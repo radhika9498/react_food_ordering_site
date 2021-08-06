@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  background-color: khaki;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  margin-bottom: 5px;
+  width: 400px;
+  padding: 4px;
+  margin-bottom: 5px;
+  position: relative;
+}
+h1 {
+  font-weight: bolder;
+  color: red;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  left: 85%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.add-photo {
+  font-size: 2em;
+  width: 10%;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 200px auto;
+}
+form input {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+form button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  color: black;
+  width: 50%;
+  margin: auto;
+}
